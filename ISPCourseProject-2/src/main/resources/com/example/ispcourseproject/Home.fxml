@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #191919;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ispcourseproject.Controller">
+   <children>
+      <Button id="encryptBtn" layoutX="97.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#onEncryptButtonClick" style="-fx-background-radius: 30px; -fx-border-color: #c5c5c5; -fx-background-color: #191919;" text="Encrypt" textFill="#c5c5c5">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="170.0" layoutY="171.0" text="Encryptly" textFill="#c5c5c5">
+         <font>
+            <Font name="Courier New" size="48.0" />
+         </font>
+      </Label>
+      <Button id="decryptBtn" layoutX="367.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#onDecryptButtonClick" style="-fx-background-radius: 30px; -fx-border-color: #c5c5c5; -fx-background-color: #191919;" text="Decrypt" textFill="#c5c5c5">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="14.0" text="User:~$" textFill="#c5c5c5">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

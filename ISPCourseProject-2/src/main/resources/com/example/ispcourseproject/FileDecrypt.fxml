@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #191919;" xmlns="http://javafx.com/javafx/19"
+            fx:controller="com.example.ispcourseproject.Controller" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <Button layoutX="215.0" layoutY="248.0" mnemonicParsing="false" style="-fx-background-radius: 30px; -fx-border-color: #c5c5c5; -fx-background-color: #191919;" text="Open File" textFill="#c5c5c5" onMouseClicked="#onOpenFileButtonClickDecrypt">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="125.0" layoutY="173.0" text="Select your desired file" textFill="#c5c5c5" wrapText="true">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Button id="Home" layoutX="467.0" layoutY="341.0" mnemonicParsing="false" style="-fx-background-radius: 30px; -fx-border-color: #c5c5c5; -fx-background-color: #191919;" text="CTRL C" textFill="#c5c5c5" onMouseClicked="#onHomeButtonClick">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="14.0" text="User:~$" textFill="#c5c5c5">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
